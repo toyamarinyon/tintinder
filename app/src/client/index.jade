@@ -1,0 +1,24 @@
+extends ./partials/layout
+block contents
+  header.contents-fullwidth.bg-vivid-green(style="height:7px")
+  section.contents-fullwidth.text-center
+    img(src="/assets/images/navitory-assets/catch.png")
+  each event, index in events
+    section.event.contents-fullwidth.overray-container(style= event.override_style)
+      img.fullwidth(src= event.src)
+      if index % 2 == 0
+        .overray.overray-right
+          span.vivid-label.vivid-label-yellow= event.date
+          h2.event-title= event.title
+          p.event-description= event.description
+      else
+        .overray.overray-left
+          span.vivid-label.vivid-label-yellow= event.date
+          h2.event-title= event.title
+          p.event-description= event.description
+
+  #enquete.
+    <!-- Change the width and height values to suit you best -->
+    <div class="typeform-widget" data-url="https://toyamarinyon.typeform.com/to/Vulxjz" data-text="navigator" style="width:100%;height:500px;"></div>
+    <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+

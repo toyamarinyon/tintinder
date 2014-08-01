@@ -1,0 +1,10 @@
+node_modules/
+.bundle/
+.sass-cache/
+vendor/
+Gemfile.lock
+*DS_Store
+app/dist
+.npm-debug
+log.txt
+error.txt

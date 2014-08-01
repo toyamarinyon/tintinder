@@ -1,0 +1,44 @@
+{
+  "events":[
+    {
+      "date": "2012年12月",
+      "title":"効果ナビゲーター誕生",
+      "description":"終わることのない長い旅が始まった。",
+      "src":"/assets/images/navitory-assets/event1.png"
+    },
+    {
+      "date": "2013年1月",
+      "title":"効果ナビゲーター「公園へ」",
+      "description":"派遣ユーザーのリアルな声を知るために、公園で情報収集。しかしながら公園に派遣ユーザーはいなかった。",
+      "src":"/assets/images/navitory-assets/event2.png",
+      "override_style":"color: #fff"
+    },
+    {
+      "date": "2013年2月",
+      "title":"初めての「挫折」",
+      "description":"答えの出ない毎日に涙した夜もあった。",
+      "src":"/assets/images/navitory-assets/event3.png",
+      "override_style":"color: #fff"
+    },
+    {
+      "date": "2013年3月",
+      "title":"苦悩の末の「神頼み」",
+      "description":"彼の背中は寂しかった。",
+      "src":"/assets/images/navitory-assets/event4.png",
+      "override_style":"color: #fff"
+    },
+    {
+      "date": "2013年7月",
+      "title":"答えを求め、海へダイブ",
+      "description":"モルディブの海は、美しかった。",
+      "src":"/assets/images/navitory-assets/event6.png",
+      "override_style":"color: #fff"
+    },
+    {
+      "date": "2014年1月",
+      "title":"燃え尽きたよ、真っ白にな",
+      "description":"彼の長い旅はようやく終わりを迎えた。",
+      "src":"/assets/images/navitory-assets/event7.png"
+    }
+   ]
+}

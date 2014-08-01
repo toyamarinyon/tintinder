@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo 'deploy starting!'
+rsync -avz app/dist/client/ digitalocean:/var/icebreak.jp/
+echo 'deploy done!'
